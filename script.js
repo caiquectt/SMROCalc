@@ -9,7 +9,7 @@ function calc(acd, aspd, cd) {
     filler.innerHTML =
       "You will need " +
       percentage +
-      " ACD reduction to spam a skill with " +
+      "% ACD reduction to spam a skill with " +
       acd.value +
       "s Skill Delay at " +
       aspd.value +
