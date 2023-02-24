@@ -1,0 +1,35 @@
+html {
+  background-color: #111111;
+  background-image: url("6161241.gif");
+}
+
+.content {
+  background-color: #e2e2e2;
+}
+
+.label {
+  color: black;
+}
+
+.text {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.input {
+  width: 165px;
+}
+
+.filler,
+.filler2 {
+  font-weight: bold;
+  color: black;
+}
+
+.footer {
+  margin-top: 65px;
+  padding: 3rem 1.5rem 3rem;
+  border-radius: 3px;
+  background-color: #e2e2e2;
+}
