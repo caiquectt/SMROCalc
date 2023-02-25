@@ -3,6 +3,16 @@ html {
   background-image: url("skull.gif");
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .content {
   background-color: #e2e2e2;
 }
