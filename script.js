@@ -16,7 +16,7 @@ function calc(acd, aspd, cd) {
       " ASPD";
     filler2.innerHTML =
       "You will be able to spam the skill at " +
-      attacksPerSecond.toFixed(2) +
+      attackDelay +
       " attacks per second";
   } else if (cd.value > 0) {
     let percentage = ((cd.value - acd.value) / acd.value) * 100;
